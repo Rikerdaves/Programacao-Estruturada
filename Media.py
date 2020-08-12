@@ -1,14 +1,7 @@
-altura = int(input("Digite a Altura: "))
-comprimento = int(input("Digite o comprimento: "))
-largura = int(input("Digite a largura: "))
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+c = int(input("Digite o terceiro número: "))
 
-area_piso_sala = altura * largura
+media = (a + b + c)/3
 
-volume_sala = largura * comprimento * altura
-
-area_paredes = 2 * altura * largura + 2 * altura * comprimento 
-
-
-print(f'Área do piso da sala: {area_piso_sala} metros quadrados\n'
-    f'Volume da sala: {volume_sala} metros cubicos\n'
-    f'Área das paredes da sala: {area_paredes} metros quadrados')
+print(f'A média dos números é {media}')
