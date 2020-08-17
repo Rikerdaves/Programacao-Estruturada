@@ -1,5 +1,13 @@
-dia = int(input())
-mes = int(input())
-ano = int(input())
+  
+def quest2_a():
+  return
 
-print(f'{dia}/{mes}/{ano}')
+def main():
+  dia = int(input('Digite o Dia: '))
+  mes = int(input('Digite o Mês: '))
+  ano = int(input('Digite o ano: '))
+  
+  print(f'A Data é {dia}/{mes}/{ano}')
+  
+if __name__ == '__main__':
+  main()  
