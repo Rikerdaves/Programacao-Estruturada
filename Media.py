@@ -10,9 +10,6 @@ def main():
   media = (a + b + c)/3
 
   print(f'A média dos números é {media}')
-
- 
-  
   
 if __name__ == '__main__':
   main()
