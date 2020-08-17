@@ -1,5 +1,5 @@
 def quest2_c():
-  retun
+  return
   
 def main():  
   a = int(input())
