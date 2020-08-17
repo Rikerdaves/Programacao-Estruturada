@@ -1,5 +1,5 @@
-import datetime
+dia = int(input())
+mes = int(input())
+ano = int(input())
 
-x = datetime.datetime(2020, 8, 10)
-
-print(x.strftime("%d/%m/%Y"))
+print(f'{dia}/{mes}/{ano}')
