@@ -1,5 +1,14 @@
-dia = int(input())
-mes = int(input())
-ano = int(input())
+def quest2_a():
+  return
 
-print(f'{dia}/{mes}/{ano}')
+def main():
+  dia = int(input())
+  mes = int(input())
+  ano = int(input())
+  
+  print(f'{dia}/{mes}/{ano}')
+  
+if __name__ == '__main__':
+  main()  
+
+
