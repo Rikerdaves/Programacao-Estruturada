@@ -1,11 +1,18 @@
-hora = int(input())
-minutos = int(input())
-segundos = int(input())
+def quest2_d():
+  return
 
-h = hora * 3600 
-m = minutos * 60
-s = segundos
+def main():
+  hora = int(input())
+  minutos = int(input())
+  segundos = int(input())
 
-resultado = h + m + s
+  h = hora * 3600 
+  m = minutos * 60
+  s = segundos
 
-print(f"{resultado}")
+  resultado = h + m + s
+
+  print(f"{resultado}")
+
+if __name__ == '__main__':
+  main()
