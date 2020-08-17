@@ -1,7 +1,14 @@
-a = int(input())
-b = int(input())
-c = int(input())
+def quest2_b():
+  return
 
-media = (a + b + c)/3
+def main(): 
+  a = int(input())
+  b = int(input())
+  c = int(input())
 
-print(f'{media}')
+  media = (a + b + c)/3
+
+  print(f'{media}')
+
+if __name__ == '__main__':
+  main()  
