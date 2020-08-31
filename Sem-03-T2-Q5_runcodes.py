@@ -1,16 +1,21 @@
-def vogal_ou_consoante(letra):
-    if letra.lower() in 'a e i o u':
+def alfabeto_numeros(letra):
+    vogal = 'a e i o u'
+    consoante = 'b c d f g h j k l m n p q r s t v x z y w' 
+    if letra.lower() in vogal :
         return f'vogal'
-    elif letra.lower() in 'b c d f g h j k l m n p q r s t v w x y z':
-        return f'consoante'
-    if letra in ('0 1 2 3 4 5 6 7 8 9'):
-        return  f'numero'
+    elif letra.lower() in consoante:
+        return f'consoante'  
+    elif letra.isdigit():
+        return f'número'
     else:
-        return f'simbolo'     
-
-def main():
+        return f'símbolo' 
+    
+def  main():
     letra = input()
-    print(f'{vogal_ou_consoante(letra)}')
 
-if __name__ == "__main__":
-    main()            
+    executar = alfabeto_numeros(letra)
+
+    print(executar)
+
+if __name__== "__main__":
+    main()           
